@@ -1,0 +1,40 @@
+{
+  "name": "Ʌɗtɩƴɑ Ɱʉsɩƈ Ƥɭɑƴɘr (ɄsɘrƁøt)",
+  "description": "Ʌɗtɩƴɑ Ƭɘɭɘʛrɑɱ ɄsɘrƁøt Ƭø Ƥɭɑƴ Ʌʉɗɩø Iɳ Ƭɘɭɘʛrɑɱ Vøɩƈɘ Ƈɦɑts",
+  "repository": "https://github.com/AdityaHalder/AdityaMusicsBot",
+  "logo": "https://telegra.ph/file/8b4520f3f471e3ce253ee.jpg",
+  "keywords": [
+    "aditya-userbot",
+    "telegram",
+    "userbot",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "voice"
+  ],
+  "env": {
+    "API_ID": {
+            "description": "api_id Ƥɑrt Øf Yøʉr Ƭɘɭɘʛrɑɱ Ʌƥɩ Ƙɘƴ Frøɱ my.telegram.org/apps",
+            "required": true
+    },
+    "API_HASH": {
+            "description": "api_hash Ƥɑrt Øf Yøʉr Ƭɘɭɘʛrɑɱ Ʌƥɩ Ƙɘƴ Frøɱ my.telegram.org/apps",
+            "required": true
+    },
+    "SESSION_NAME": {
+            "description": "Sɘssɩøɳ Strɩɳʛ, Ʀɘɑɗ Ƭɦɘ Ʀɘɑdɱɘ Ƭø Lɘɑrɳ Ɦøω Ƭø Exƥørt It Wɩtɦ Ƥƴrøʛrɑɱ",
+            "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
